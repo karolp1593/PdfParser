@@ -1,4 +1,4 @@
-﻿using iText.Layout.Element;
+﻿
 
 namespace PdfParser.Core
 {

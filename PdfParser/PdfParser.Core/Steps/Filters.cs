@@ -1,4 +1,4 @@
-﻿using iText.Layout.Element;
+﻿
 using System.Text.RegularExpressions;
 
 namespace PdfParser.Core

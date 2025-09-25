@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-PdfParser.Service-b8f99f68-8e38-42ec-adfb-a405d83cc047</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.9" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="9.0.9" />
+    <PackageReference Include="Microsoft.Extensions.Logging.EventLog" Version="9.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PdfParser.Core\PdfParser.Core.csproj" />
+  </ItemGroup>
+</Project>
